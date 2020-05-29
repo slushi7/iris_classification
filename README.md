@@ -17,7 +17,7 @@ The columns in this dataset are:
   * Species
 
 ## Goal of this project:
-The main goal of this project is find out which classification model works best for this dataset.
+The main goal of this project is find out which classification model performs well for this dataset.
 
 Our target variable is species.
 
@@ -26,3 +26,18 @@ I will be using the following Classification Techniques:
   1. Logistic Regression
   2. K nearest neighbors 
   3. Desicison tree
+
+## Conclusion
+
+The Decision Tree is the better performing model than Logistic Regression and KNN.
+
+Why so?
+
+Because:
+
+ - Logistic Regression misclassifies some samples.
+ - KNN underfits the model.
+
+Since it is a small and clean data set Tree based algorithmns have no problems in classifying the data.
+
+Tunning the hyper parameters using GridSearch technique can help us improve the logistic regression and the KNN model.
